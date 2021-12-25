@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Roboto', sans-serif; }
+  
+html {
+font-size: 110%; }
+@media (max-width: 991.98px) {
+    html {
+    font-size: 90%; } }
+@media (max-width: 767.98px) {
+    html {
+    font-size: 85%; } }
+@media (max-width: 575.98px) {
+    html {
+    font-size: 80%; } }
+@media (min-width: 1800px) {
+    html {
+    font-size: 120%; } }
+
+.bg-black {
+background-color: #000;
+color: #fff; }
+
+.bg-home {
+background: #226666; }
+
+.bg-resume {
+background: #2D882D; }
+
+.bg-work {
+background: #AA6C39; }
+
+.bg-contact {
+background: #AA3939; }
+
+.header__img {
+width: 100%;
+height: 100%; }
+
+.header__port-item {
+width: 25%; }
+@media (max-width: 280px) {
+    .header__port-item {
+    width: 100%; } }
+.header__port-item-wrapper {
+    display: flex;
+    flex-direction: row; }
+    @media (max-width: 280px) {
+    .header__port-item-wrapper {
+        flex-direction: column; } }
+.header__port-item .fa {
+    font-size: 1em; }
+.header__port-item:hover {
+    opacity: 0.8;
+    cursor: pointer; }
+
+.social {
+text-decoration: none;
+color: white; }
+.social:hover {
+    text-decoration: none;
+    color: white; }
+
+#port_1, #port_2, #port_3 {
+cursor: pointer;
+border: 3px solid #AA6C39;
+border-radius: 3px 3px 3px 3px;
+padding: .3rem; }
+
+.go-to {
+text-decoration: none;
+color: white; }
+.go-to:hover {
+    text-decoration: none;
+    color: white; }
