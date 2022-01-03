@@ -20,9 +20,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="img-fluid" src="img/Capture.PNG" alt="a sample django site"><br>
+                                <img class="img-fluid" src="#" alt="a sample django site"><br>
                                 <p>This is a simple portfolio site with a blog attached deployed on Heroku. Scroll down for link.</p>
-                                <div class="d-flex flex-row">
+                                <!-- <div class="d-flex flex-row">
                                     <p class="mr-2">Built with:</p> 
                                     <ul class="list-unstyled">
                                         <li><i class="fas fa-check-square"></i> HTML/CSS/SCSS</li>
@@ -31,7 +31,7 @@
                                         <li><i class="fas fa-check-square"></i> Python</li>
                                         <li><i class="fas fa-check-square"></i> PostgreSQL</li>
                                     </ul>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="modal-footer">
                                 <a href="https://a21-portfolio-sample.herokuapp.com/" class="go-to btn bg-work" target="_blank">Go to site</a>
@@ -41,64 +41,28 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <img id="port_2" data-toggle="modal" data-target="#portfolioModal1" class="img-fluid" src="img/product_hunt.PNG" alt="sample django page">
-                
-                <!-- MODAL-->
-                <div class="modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Launch demo modal
+                </button>
+            
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel1">Project #2</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="img-fluid" src="img/product_hunt.PNG" alt="a sample django page"><br>
-                                <p>This is a simple webapp built with Django and deployed on PythonAnywhere. A user can create a product and the products can get upvotes or downvotes. Scroll down for link.</p>
-                                <div class="d-flex flex-row">
-                                    <p class="mr-2">Built with:</p> 
-                                    <ul class="list-unstyled">
-                                        <li><i class="fas fa-check-square"></i> HTML/CSS/SCSS</li>
-                                        <li><i class="fas fa-check-square"></i> Bootstrap</li>
-                                        <li><i class="fas fa-check-square"></i> Django</li>
-                                        <li><i class="fas fa-check-square"></i> Python</li>
-                                    </ul>
-                                </div>
+                                ...
                             </div>
                             <div class="modal-footer">
-                                <a href="https://olaley.pythonanywhere.com/" class="go-to btn bg-work" target="_blank">Go to site</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <img id="port_3" data-toggle="modal" data-target="#portfolioModal2" class="img-fluid" src="img/hidi.PNG" alt="my blog">
-                
-                <!-- MODAL-->
-                <div class="modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel2">Project #3</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img class="img-fluid" src="img/hidi.PNG" alt="my blog"><br>
-                                <p>This is my personal blog where I write about bug fixes and anything tech. Scroll down for link.</p>
-                                <div class="d-flex flex-row">
-                                    <p class="mr-2">Built with:</p> 
-                                    <ul class="list-unstyled">
-                                        <li><i class="fas fa-check-square"></i> WordPress</li>
-                                        <li><i class="fas fa-check-square"></i> CSS3</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="http://www.hidi.cf/" class="go-to btn bg-work" target="_blank">Go to site</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                         </div>
                     </div>

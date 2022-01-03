@@ -73,3 +73,7 @@ color: white; }
 .go-to:hover {
     text-decoration: none;
     color: white; }
+
+#footer__resume-link {
+    margin-left: 1rem;
+}
